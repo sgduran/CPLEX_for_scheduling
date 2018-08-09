@@ -180,6 +180,7 @@ def giras_comunes(equipos):
     
     
     f = open('giras_comunes.txt','w')
+    print 'hello'
     s = str(recordatorio_giras)    
     f.write(s)
     f.close()
